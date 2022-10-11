@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 
-const arrondissementSchema = mongoose.Schema({
+const villeSchema = mongoose.Schema({
 
     libelle:
     {
@@ -13,4 +13,4 @@ const arrondissementSchema = mongoose.Schema({
     }
 }, { timestamps: true })
 
-module.exports.Arrondissement  = mongoose.model('Arrondissement',arrondissementSchema)
+module.exports.Ville  = mongoose.model('Ville',villeSchema)
